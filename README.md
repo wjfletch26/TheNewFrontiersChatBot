@@ -3,9 +3,15 @@
 
 The vision:  Clippy is an assistant we all remember (if you used Microsoft Word).  A friendly assistant.  That's how Whippy came to be here.  Sure, he is a paperclip... but he is so much more than that.  He ropes, rides, takes care of the Livestock, and he makes sure they get to where they need to go.  
 
-![Chat GPT Mobile](https://i.ibb.co/RcNyyT6/chatgpt.png)
+![Whippy Chat Bot Assistant](https://ibb.co/5MJTzFC)
 
-Whippy was built using React Native Expo and Firebase. The app provides features like user login, registration, OpenAI's Chat Completion API from Open AI.
+## Technologies
+
+-   **React Native**: A framework for building native apps using React.
+-   **Expo**: A framework and platform for universal React applications (Specifically Expo Go).
+-   **React Native**: React Native Gifted Chat (https://github.com/FaridSafi/react-native-gifted-chat)
+-   **Firebase**: Firebase Firestore: A backend-as-a-service platform for building web and mobile apps.
+-   **OpenAI Chat Completion API (GPT-3.5)**: A state-of-the-art language model developed by OpenAI.
 
 ![Meet "Whippy", your Ranch Hand Clippy]([https://i.ibb.co/RcNyyT6/chatgpt.png](https://drive.google.com/file/d/1PrCkEH2LUo1qkqSTvgIwaoaBzNggRlEL/preview))
 
@@ -13,20 +19,20 @@ Whippy was built using React Native Expo and Firebase. The app provides features
 
 The Chat GPT Clone app offers the following features:
 
-1. **User Authentication:**
+1. **Chat Completion:**
 
--   Login: Existing users can log in using their credentials.
--   Register: New users can create an account by providing the necessary information.
+Technology Used:  Gifted Chat
+Why Pick Gifted chat?
+-   Research on the best chat bot components for example: https://www.reddit.com/r/reactnative/comments/t21bls/is_gifted_chat_the_best_way_to_go/
+-   Gifted Chat Repo: https://github.com/FaridSafi/react-native-gifted-chat
 
-2. **Chat Completion:**
+2. **Storing Chat Messages on Firebase Firestore:**
 
--   Users can engage in conversations with the Chat GPT model and receive intelligent responses.
--   The app utilizes the power of GPT-3.5, a large language model, to generate human-like text responses.
+-  All chats are stored in a noSQL database via Google Firebase Firestore.  
 
-3. **Image Generation**
 
--   Users can generate images based on specific prompts or descriptions.
--   The app uses AI models and image generation algorithms to create images.
+
+# Running the App:
 
 ## Prerequisites
 
