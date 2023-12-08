@@ -36,6 +36,7 @@ Technology Used:  Gifted Chat + OpenAI's Chat Completion API
 
 - Download the Expo Go app to your mobile device: https://expo.dev/client.  
 - Clone this repo to your local machine
+- Create a file:  `.env` and paste the values provided to you (see email)
 - `npm install`
 - `npm start`
 
