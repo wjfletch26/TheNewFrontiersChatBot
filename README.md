@@ -12,7 +12,7 @@ He ropes, rides, takes care of the Livestock, and he makes sure they get to wher
 
 -   **React Native**: A framework for building native apps using React.
 -   **Expo**: A framework and platform for universal React applications (Specifically Expo Go).
--   **React Native**: React Native Gifted Chat (https://github.com/FaridSafi/react-native-gifted-chat)
+-   **React Native Gifted Chat**: ChatBot Component (https://github.com/FaridSafi/react-native-gifted-chat)
 -   **Firebase**: Firebase Firestore: A backend-as-a-service platform for building web and mobile apps.
 -   **OpenAI Chat Completion API (GPT-3.5)**: A state-of-the-art language model developed by OpenAI.
 
