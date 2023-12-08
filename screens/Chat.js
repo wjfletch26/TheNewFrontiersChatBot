@@ -13,12 +13,12 @@ import { OPENAI_KEY } from "@env";
 // Thanks for watching...
 const Chat = ({ navigation }) => {
   const [inputMessage, setInputMessage] = useState("");
-  console.log(inputMessage);
-  console.log("these are the end users messages");
+  //   console.log(inputMessage);
+  //   console.log("these are the end users messages");
 
   const [outputMessage, setOutputMessage] = useState("");
-  console.log("these are WHIPPYS messages");
-  console.log(outputMessage);
+  //   console.log("these are WHIPPYS messages");
+  //   console.log(outputMessage);
 
   const [isTyping, setIsTyping] = useState(false);
 
@@ -89,8 +89,6 @@ const Chat = ({ navigation }) => {
         </View>
       );
     }
-
-    // return <Bubble {...props} />
   };
 
   // Implementing chat generation using gpt-3.5-turbo model
@@ -110,8 +108,6 @@ const Chat = ({ navigation }) => {
     /**
      * Always put your api key in an environment file
      */
-
-    // 'Authorization': `Bearer ${process.env.OPENAI_KEY}`
 
     fetch("https://api.openai.com/v1/chat/completions", {
       method: "POST",
@@ -161,66 +157,9 @@ const Chat = ({ navigation }) => {
       });
   };
 
-  // implementing images generations
-  const generateImages = () => {
-    setIsTyping(true);
-    const message = {
-      _id: Math.random().toString(36).substring(7),
-      text: inputMessage,
-      createdAt: new Date(),
-      user: { _id: 1 },
-    };
-
-    setMessages((previousMessage) =>
-      GiftedChat.append(previousMessage, [message])
-    );
-
-    fetch("https://api.openai.com/v1/images/generations", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${OPENAI_KEY}`,
-      },
-      body: JSON.stringify({
-        prompt: inputMessage,
-        n: 1,
-        size: "1024x1024",
-      }),
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(data.data[0].url);
-        setInputMessage("");
-        setOutputMessage(data.data[0].url);
-        setIsTyping(false);
-
-        data.data.forEach((item) => {
-          const message = {
-            _id: Math.random().toString(36).substring(7),
-            text: "Image",
-            createdAt: new Date(),
-            user: { _id: 2, name: "ChatGPT" },
-            image: item.url,
-          };
-
-          setMessages((previousMessage) =>
-            GiftedChat.append(previousMessage, [message])
-          );
-        });
-      });
-  };
-
   const submitHandler = () => {
-    // if (inputMessage.toLowerCase().startsWith('generate image')) {
-    //     generateImages()
-    // } else {
     generateText();
-    // }
   };
-
-  // const handleInputText = (text) => {
-  //     setInputMessage(text)
-  // }
 
   return (
     <SafeAreaView
