@@ -1,8 +1,13 @@
-# Chat GPT Clone
+# The "New" Frontiers Chat Bot Widget:  "Whippy"
+## "Whippy" Chat Widget is a helpful assistant or Ranch Hand, at your service. To serve users and ultimately, the Livestock... get to where they need to be.  
 
-Chat GPT Clone mobile app built using React Native Expo and Firebase. The app provides features like user login, registration, chat completion, and generating images.
+The vision:  Clippy is an assistant we all remember (if you used Microsoft Word).  A friendly assistant.  That's how Whippy came to be here.  Sure, he is a paperclip... but he is so much more than that.  He ropes, rides, takes care of the Livestock, and he makes sure they get to where they need to go.  
 
 ![Chat GPT Mobile](https://i.ibb.co/RcNyyT6/chatgpt.png)
+
+Whippy was built using React Native Expo and Firebase. The app provides features like user login, registration, OpenAI's Chat Completion API from Open AI.
+
+![Meet "Whippy", your Ranch Hand Clippy]([https://i.ibb.co/RcNyyT6/chatgpt.png](https://drive.google.com/file/d/1PrCkEH2LUo1qkqSTvgIwaoaBzNggRlEL/preview))
 
 ## Features
 
@@ -11,7 +16,7 @@ The Chat GPT Clone app offers the following features:
 1. **User Authentication:**
 
 -   Login: Existing users can log in using their credentials.
--   Register: New users can create an account by providing necessary information.
+-   Register: New users can create an account by providing the necessary information.
 
 2. **Chat Completion:**
 
