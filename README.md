@@ -1,9 +1,12 @@
 # The "New" Frontiers Chat Bot Widget:  "Whippy"
-### "Whippy" Chat Widget is a helpful assistant or Ranch Hand, at your service. To serve users and ultimately, the Livestock... get to where they need to be.  
+#### "Whippy" Chat Widget is a helpful assistant or Ranch Hand, at your service. To serve users and ultimately, the Livestock... get to where they need to be.  
 
-The vision:  Clippy is an assistant we all remember (if you used Microsoft Word).  A friendly assistant.  That's how Whippy came to be here.  Sure, he is a paperclip... but he is so much more than that.  He ropes, rides, takes care of the Livestock, and he makes sure they get to where they need to go.  
+The vision:  What is an assistant?  The first one many remember is [Clippy](https://www.youtube.com/watch?v=3kcQzCzSDvc) (if you used Microsoft Word).  A friendly assistant.  That's how Whippy came to be here, to help the new Frontiers and their Livestock.  
 
-![Whippy Chat Bot Assistant](https://ibb.co/5MJTzFC)
+Sure, he is a paperclip... but he is so much more than that.  
+He ropes, rides, takes care of the Livestock, and he makes sure they get to where they need to go.  
+
+![Whippy Chat Bot Assistant](https://i.ibb.co/5MJTzFC/cd8275c9-ba00-44f5-9c7c-853307044409.jpg)
 
 ## Technologies
 
@@ -13,88 +16,29 @@ The vision:  Clippy is an assistant we all remember (if you used Microsoft Word)
 -   **Firebase**: Firebase Firestore: A backend-as-a-service platform for building web and mobile apps.
 -   **OpenAI Chat Completion API (GPT-3.5)**: A state-of-the-art language model developed by OpenAI.
 
-![Meet "Whippy", your Ranch Hand Clippy]([https://i.ibb.co/RcNyyT6/chatgpt.png](https://drive.google.com/file/d/1PrCkEH2LUo1qkqSTvgIwaoaBzNggRlEL/preview))
+![Meet "Whippy", your Ranch Hand Clippy](https://drive.google.com/file/d/1PrCkEH2LUo1qkqSTvgIwaoaBzNggRlEL/preview)
 
 ## Features
 
-The Chat GPT Clone app offers the following features:
-
 1. **Chat Completion:**
 
-Technology Used:  Gifted Chat
-Why Pick Gifted chat?
--   Research on the best chat bot components for example: https://www.reddit.com/r/reactnative/comments/t21bls/is_gifted_chat_the_best_way_to_go/
+Technology Used:  Gifted Chat + OpenAI's Chat Completion API
+
+-   Why Pick GiftedChat?  Here's some Sample Research on the best chat bot components: https://www.reddit.com/r/reactnative/comments/t21bls/is_gifted_chat_the_best_way_to_go/
 -   Gifted Chat Repo: https://github.com/FaridSafi/react-native-gifted-chat
 
 2. **Storing Chat Messages on Firebase Firestore:**
 
--  All chats are stored in a noSQL database via Google Firebase Firestore.  
+-  All Whippy chats are stored in a noSQL database via Google Firebase Firestore.  
 
 
+# Running the App Locally:
 
-# Running the App:
+- Download the Expo Go app to your mobile device: https://expo.dev/client.  
+- Clone this repo to your local machine
+- `npm install`
+- `npm start`
 
-## Prerequisites
-
-Before setting up the app, make sure you have the following prerequisites installed:
-
--   **Node.js**: Install Node.js from the official website (https://nodejs.org) or use a package manager like Homebrew (macOS) or Chocolatey (Windows).
--   **Expo CLI**: Install the Expo CLI globally by running the following command:
-
-```shell
-npm install --global expo-cli
-
-```
-
--   **Firebase Account**: Create a Firebase account at https://firebase.google.com and set up a new project.
-
-## Getting Started
-
-To get started with the Chat GPT Clone app, follow these steps:
-
-1. **Clone the repository:**
-
-```shell
-git clone https://github.com/bizzara/ChatGPT.git
-
-cd ChatGPT
-```
-
-2. **Install dependencies:**
-
-```shell
-npm install
-```
-
-3. **Set up Firebase:**
-
--   Create a new Firebase project
--   Enable Authentication and Firestore services.
--   In the Firebase console, navigate to Project Settings and copy the Firebase configuration object.
-
-4. **Configure Firebase in the app:**
-
--   Replace the placeholder values in firebaseHelper.js with your Firebase configuration values.
-
-5. **Start the Expo development server:**
-
-```shell
-expo start
-```
-
-6. **Install the Expo Go app** on your iOS or Android device.
-7. **Scan the QR code** displayed in the terminal or in the browser using the Expo Go app to launch the app on your device.
-8. You should now be able to use the Chat GPT Clone app on your device.
-
-## Technologies Used
-
-The Chat GPT Clone app utilizes the following technologies:
-
--   **React Native**: A framework for building native apps using React.
--   **Expo**: A framework and platform for universal React applications.
--   **Firebase**: A backend-as-a-service platform for building web and mobile apps.
--   **GPT-3.5**: A state-of-the-art language model developed by OpenAI.
-
-## Contributing
-
-Contributions to the Chat GPT Clone app are welcome! If you find any issues or want to add new features, please open an issue or submit a pull request
+### Run it on your device:
+-  Android: Open Expo Go app and scan the QR code
+-  IOS: Scan the QR code with your camera 
