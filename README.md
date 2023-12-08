@@ -1,5 +1,5 @@
 # The "New" Frontiers Chat Bot Widget:  "Whippy"
-## "Whippy" Chat Widget is a helpful assistant or Ranch Hand, at your service. To serve users and ultimately, the Livestock... get to where they need to be.  
+### "Whippy" Chat Widget is a helpful assistant or Ranch Hand, at your service. To serve users and ultimately, the Livestock... get to where they need to be.  
 
 The vision:  Clippy is an assistant we all remember (if you used Microsoft Word).  A friendly assistant.  That's how Whippy came to be here.  Sure, he is a paperclip... but he is so much more than that.  He ropes, rides, takes care of the Livestock, and he makes sure they get to where they need to go.  
 
